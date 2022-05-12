@@ -5,6 +5,39 @@
     font-family: 'Fredoka', sans-serif;
 }
 
-body{
-    
+img{
+    height: 105px;
+    float: left;
+    padding-right: 8px;
+}
+
+address{
+    font-style: normal;
+}
+
+.container{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.generic-text{
+    text-align: center;
+    margin-bottom: 40px
+}
+
+.cards{
+    background-color: black;
+    width:calc(100% / 3 - 10px);
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.information{
+    padding: 15px 0;
+    line-height: 25px;
+}
+
+.email{
+    text-decoration: none;
 }
